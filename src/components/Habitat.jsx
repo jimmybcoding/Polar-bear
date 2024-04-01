@@ -32,7 +32,7 @@ function Habitat() {
   
   return (
     <>
-      <div className='bg-habitat flex flex-col gap-4 text-center mx-auto py-4 items-center bg-cover bg-no-repeat bg-center bg-fixed h-screen w-auto'>
+      <div className='bg-habitat flex flex-col gap-4 text-center mx-auto py-4 items-center bg-cover bg-no-repeat bg-center bg-fixed h-auto w-screen'>
         <h1 className='text-3xl shadow-5xl border-2 rounded-2xl p-2'>Habitat</h1>
 
         <section>
@@ -51,7 +51,7 @@ function Habitat() {
         </section>
       </div>
  
-      <div className='bg-diet flex flex-col gap-4 text-center mx-auto py-4 items-center bg-cover bg-no-repeat bg-center bg-fixed h-screen w-auto'>
+      <div className='bg-diet flex flex-col gap-4 text-center mx-auto py-4 items-center bg-cover bg-no-repeat bg-center bg-fixed h-auto w-screen'>
         <h1 className='text-3xl shadow-5xl border-2 rounded-2xl p-2'>Diet</h1>
         
         <section className="py-36">
