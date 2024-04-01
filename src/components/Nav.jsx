@@ -29,9 +29,9 @@ function Nav() {
       },
     }}>
                 <MenuItem component={<Link to='/#/' />} onClick={() => handleToggle()}>Home</MenuItem>
-                <MenuItem component={<Link to='/#Characteristics' />} onClick={() => handleToggle()} >Characteristics</MenuItem>
-                <MenuItem component={<Link to='/#Habitat' />} onClick={()=> handleToggle()}>Habitat</MenuItem>
-                <MenuItem component={<Link to='/#Adaptations'/>} onClick={()=> handleToggle()}>Adaptations</MenuItem>
+                <MenuItem component={<Link to='/Characteristics' />} onClick={() => handleToggle()} >Characteristics</MenuItem>
+                <MenuItem component={<Link to='/Habitat' />} onClick={()=> handleToggle()}>Habitat</MenuItem>
+                <MenuItem component={<Link to='/Adaptations'/>} onClick={()=> handleToggle()}>Adaptations</MenuItem>
             </Menu>
         </Sidebar>
 }
