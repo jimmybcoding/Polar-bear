@@ -34,32 +34,32 @@ function Habitat() {
   
   return (
     <>
-      <div className='bg-habitat flex flex-col gap-4 text-center mx-auto py-4 items-center bg-cover bg-no-repeat bg-center bg-fixed min-h-screen w-auto'>
+      <div className='bg-habitat flex flex-col text-center py-4 items-center bg-cover bg-no-repeat bg-center bg-fixed min-h-[calc(100dvh)]'>
         <h1 className='text-3xl shadow-5xl border-2 rounded-2xl p-2'>Habitat</h1>
 
-        <section>
-          <div className="my-10 py-10">  
+        <section className="mt-10 mx-2">  
             <p className="text-xl font-bold">Polar bears live in the arctic in countries like Canada, Russia, USA(Alaska) and Greenland.</p>
             <p className="text-xl font-bold">Did you know the polar bear capital of the world is in Canada! It is in Churchill Manitoba.</p>
-          </div>
           { data && 
           <div>
-            <p className="font-bold">The temperature in Churchill today is:</p>
-            <div className="text-5xl font-bold my-2">{tempConversion(data?.main?.temp)}C</div>
+            <p className="font-bold mt-5">The temperature in Churchill today is:</p>
+            <div className="text-3xl font-bold">{tempConversion(data?.main?.temp)}C</div>
             <p className="font-bold">It feels like:</p>
-            <div className="text-5xl font-bold">{tempConversion(data?.main?.feels_like)}C</div>
+            <div className="text-3xl font-bold">{tempConversion(data?.main?.feels_like)}C</div>
           </div>
           }
         </section>
       </div>
  
-      <div className='bg-diet flex flex-col gap-4 text-center mx-auto py-4 items-center bg-cover bg-no-repeat bg-center bg-fixed min-h-screen w-auto'>
-        <h1 className='text-3xl shadow-5xl border-2 rounded-2xl p-2'>Diet</h1>
+      <div className='bg-diet flex flex-col text-center py-4 items-center bg-cover bg-no-repeat bg-center bg-fixed min-h-[calc(100dvh)]'>
+        <h1 className='text-3xl shadow-5xl border-2 rounded-2xl p-2 mb-4'>Diet</h1>
         
-        <section className="py-36">
-          <p className="text-xl font-bold">Polar Bears love to eat seals. They wait on sea ice for the seals to come up for air.</p>
-          <p className="text-xl font-bold">Polar bears will also eat the carcasses of other mammals like whales and walruses.</p>
-          <p className="text-xl font-bold">If food is scarce they will even eat birds and eggs.</p>
+        <section>
+          <div className="mt-10 mx-2">
+            <p className="text-xl font-bold">Polar Bears love to eat seals. They wait on sea ice for the seals to come up for air.</p>
+            <p className="text-xl font-bold">Polar bears will also eat the carcasses of other mammals like whales and walruses.</p>
+            <p className="text-xl font-bold">If food is scarce they will even eat birds and eggs.</p>
+          </div>
         </section>
       </div>
     </>
