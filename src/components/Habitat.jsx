@@ -14,7 +14,7 @@ function Habitat() {
     const fetchData = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch('http://api.openweathermap.org/data/2.5/weather?lat=58.769&lon=-94.173&appid=c70b6eb8fe897b3f62c09448aa161552');
+        const response = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=58.769&lon=-94.173&appid=c70b6eb8fe897b3f62c09448aa161552');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
