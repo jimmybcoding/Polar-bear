@@ -2,7 +2,7 @@
   "name": "polar-bear",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jimmybcoding.github.io/Polar-bear/",
+  "homepage": "https://jimmybcoding.github.io/Polar-bear/#/",
   "type": "module",
   "scripts": {
     "dev": "vite",
