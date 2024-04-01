@@ -1,6 +1,6 @@
 import './index.css';
 import Nav from './components/Nav';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Router, Routes } from 'react-router-dom';
 import  Characteristics from './components/Characteristics';
 import Habitat from './components/Habitat';
 import Adaptations from './components/Adaptations';
@@ -10,8 +10,6 @@ function App() {
 
   return (
     <>
-    
-    
           <Routes >
             <Route  path='/' element={<Home />}/>
             <Route  path='/Characteristics' element={<Characteristics />}/>
