@@ -39,7 +39,7 @@ function Habitat() {
 
         <section className="mt-10 mx-2">  
             <p className="text-xl font-bold">Polar bears live in the arctic in countries like Canada, Russia, USA(Alaska) and Greenland.</p>
-            <p className="text-xl font-bold">Did you know the polar bear capital of the world is in Canada! It is in Churchill Manitoba.</p>
+            <p className="text-xl font-bold">Did you know the polar bear capital of the world is in Canada?! It is in Churchill Manitoba.</p>
           { data && 
           <div>
             <p className="font-bold mt-5">The temperature in Churchill today is:</p>
